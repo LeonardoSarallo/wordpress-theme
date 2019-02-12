@@ -9,5 +9,19 @@
     add_action('wp_enqueue_scripts', 'import_css');
   }
 
+  if (!function_exists('leopress_setup' ))
+  {
+    function leopress_setup()
+    {
 
+      register_nav_menus(array(
+        'header' => 'header'
+      ));
+
+
+    }
+
+
+    add_action('after_setup_theme', 'leopress_setup');
+  }
 ?>

@@ -7,3 +7,13 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <span>LeoPress</span>
+        </div>
+        <div class="header-right">
+
+        </div>
+      </div>
+    </header>

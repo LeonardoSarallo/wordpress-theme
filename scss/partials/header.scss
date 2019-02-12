@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid lightgrey;
+  .container {
+    height: 100%;
+    .header-left, .header-right {
+      float: left;
+    }
+
+
+  }
+}

@@ -26,5 +26,8 @@
     "sass": "^1.17.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.0"
   }
 }
