@@ -13,7 +13,11 @@
           <span>LeoPress</span>
         </div>
         <div class="header-right">
-
+          <?php wp_nav_menu(array(
+            'theme_location' => 'header',
+            'container' => false,
+            'menu_class' => 'nav_item'
+          )); ?>
         </div>
       </div>
     </header>

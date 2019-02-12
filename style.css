@@ -10668,22 +10668,49 @@ a.text-dark:focus {
   }
 }
 
-.header {
+header {
   width: 100%;
   height: 70px;
   border-bottom: 1px solid lightgrey;
 }
 
-.header .container {
+header .container {
   height: 100%;
 }
 
-.header .container .header-left,
-.header .container .header-right {
+header .container .header-left,
+header .container .header-right {
   float: left;
+  height: 100%;
 }
 
-h1 {
-  color: red;
+header .container .header-right {
+  float: right;
+  line-height: 70px;
+}
+
+header .container .header-right ul {
+  list-style: none;
+}
+
+header .container .header-right li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header .container .header-right li a {
+  color: #565a5c;
+}
+
+header .container .header-left {
+  line-height: 70px;
+}
+
+header .container .header-left span {
+  font-size: 35px;
+}
+
+.post h2 small {
+  font-size: 15px;
 }
 
