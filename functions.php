@@ -18,10 +18,27 @@
         'header' => 'header'
       ));
 
-
+      add_theme_support('post-thumbnails');  
     }
 
 
     add_action('after_setup_theme', 'leopress_setup');
   }
+
+
+    if (!function_exists('leopress_widgets_init' ))
+    {
+      function leopress_widgets_init()
+      {
+
+        register_sidebar(array(
+          'name' => 'leopress-sidebar',
+          'id'   => 'leopress-sidebar'
+        ));
+
+      }
+
+
+      add_action('widgets_init', 'leopress_widgets_init');
+    }
 ?>

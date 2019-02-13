@@ -14,7 +14,10 @@
             <p>
               <?php the_excerpt(); ?>
             </p>
-            
+            <p>
+              <?php the_category(); ?>
+            </p>
+
           </div>
 
         <?php endwhile; else:  ?>

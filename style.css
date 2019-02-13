@@ -10710,6 +10710,15 @@ header .container .header-left span {
   font-size: 35px;
 }
 
+.post {
+  margin: 50px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post h2 {
+  font-size: 50px;
+}
+
 .post h2 small {
   font-size: 15px;
 }
